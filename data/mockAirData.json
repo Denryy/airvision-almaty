@@ -1,0 +1,118 @@
+{
+  "districts": [
+    {
+      "id": "almaly",
+      "name": "Almaly",
+      "lat": 43.2567,
+      "lng": 76.9286,
+      "aqi": 85,
+      "pm25": 42,
+      "co2": 680,
+      "temperature": 5,
+      "humidity": 45,
+      "windSpeed": 12,
+      "windDirection": "NE"
+    },
+    {
+      "id": "bostandyk",
+      "name": "Bostandyk",
+      "lat": 43.2220,
+      "lng": 76.8850,
+      "aqi": 62,
+      "pm25": 28,
+      "co2": 540,
+      "temperature": 4,
+      "humidity": 48,
+      "windSpeed": 9,
+      "windDirection": "N"
+    },
+    {
+      "id": "medeu",
+      "name": "Medeu",
+      "lat": 43.1750,
+      "lng": 76.9300,
+      "aqi": 38,
+      "pm25": 14,
+      "co2": 420,
+      "temperature": 2,
+      "humidity": 55,
+      "windSpeed": 14,
+      "windDirection": "NW"
+    },
+    {
+      "id": "alatau",
+      "name": "Alatau",
+      "lat": 43.2100,
+      "lng": 76.8200,
+      "aqi": 112,
+      "pm25": 58,
+      "co2": 760,
+      "temperature": 6,
+      "humidity": 42,
+      "windSpeed": 7,
+      "windDirection": "E"
+    },
+    {
+      "id": "nauryzbay",
+      "name": "Nauryzbay",
+      "lat": 43.2900,
+      "lng": 76.8500,
+      "aqi": 145,
+      "pm25": 72,
+      "co2": 890,
+      "temperature": 7,
+      "humidity": 38,
+      "windSpeed": 5,
+      "windDirection": "SE"
+    },
+    {
+      "id": "turksib",
+      "name": "Turksib",
+      "lat": 43.3300,
+      "lng": 77.0100,
+      "aqi": 168,
+      "pm25": 88,
+      "co2": 980,
+      "temperature": 8,
+      "humidity": 36,
+      "windSpeed": 4,
+      "windDirection": "S"
+    },
+    {
+      "id": "zhetysu",
+      "name": "Zhetysu",
+      "lat": 43.3100,
+      "lng": 76.9700,
+      "aqi": 95,
+      "pm25": 48,
+      "co2": 710,
+      "temperature": 6,
+      "humidity": 44,
+      "windSpeed": 10,
+      "windDirection": "NE"
+    },
+    {
+      "id": "center",
+      "name": "City Center",
+      "lat": 43.2551,
+      "lng": 76.9126,
+      "aqi": 101,
+      "pm25": 52,
+      "co2": 730,
+      "temperature": 5,
+      "humidity": 43,
+      "windSpeed": 8,
+      "windDirection": "NE"
+    }
+  ],
+  "currentCity": {
+    "aqi": 85,
+    "pm25": 42,
+    "co2": 680,
+    "temperature": 5,
+    "humidity": 45,
+    "windSpeed": 12,
+    "windDirection": "NE",
+    "updatedAt": "2026-03-20T14:30:00Z"
+  }
+}
