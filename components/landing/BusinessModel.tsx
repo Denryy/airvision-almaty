@@ -5,59 +5,59 @@ import { useEffect, useRef, useState } from "react";
 const plans = [
   {
     tier: "B2G",
-    name: "Government",
+    name: "Государственный сектор",
     icon: "🏛️",
-    tagline: "City-scale intelligence",
-    price: "Custom",
-    unit: "per city / year",
+    tagline: "Интеллект для управления городом",
+    price: "По запросу",
+    unit: "за город / год",
     accent: "#f97316",
     features: [
-      "Full sensor network deployment",
-      "Real-time city dashboard",
-      "AI policy recommendation engine",
-      "Traffic & eco-zone automation",
-      "24/7 dedicated support SLA",
-      "White-label reporting portal",
+      "Полное развертывание сети датчиков",
+      "Панель мониторинга города в реальном времени",
+      "AI-рекомендации для управления экологией",
+      "Автоматизация трафика и эко-зон",
+      "Круглосуточная поддержка (SLA)",
+      "Персонализированный портал отчетности",
     ],
-    cta: "Request a demo",
+    cta: "Запросить демо",
     highlight: false,
   },
   {
     tier: "B2B",
-    name: "Enterprise API",
+    name: "API для бизнеса",
     icon: "⚡",
-    tagline: "Data as a service",
-    price: "from $299",
-    unit: "per month",
+    tagline: "Данные как сервис",
+    price: "от $299",
+    unit: "в месяц",
     accent: "#818cf8",
     features: [
-      "REST & WebSocket AQI API",
-      "Historical dataset access",
-      "AI forecast endpoints",
-      "Up to 1M requests / month",
-      "99.9% uptime SLA",
-      "Sandbox + production keys",
+      "REST и WebSocket API для AQI",
+      "Доступ к историческим данным",
+      "AI-прогноз качества воздуха",
+      "До 1 млн запросов в месяц",
+      "99.9% стабильность (SLA)",
+      "Тестовая и продакшн среда",
     ],
-    cta: "Start free trial",
+    cta: "Начать бесплатно",
     highlight: true,
   },
   {
     tier: "B2C",
-    name: "Mobile Pro",
+    name: "Мобильное приложение Pro",
     icon: "📱",
-    tagline: "Your personal air shield",
+    tagline: "Персональная защита от загрязнения",
     price: "$4.99",
-    unit: "per month",
+    unit: "в месяц",
     accent: "#34d399",
     features: [
-      "72-hr personal AQI forecast",
-      "Smart route navigation",
-      "Health impact scoring",
-      "Push alerts for your zones",
-      "Wear OS / Apple Watch sync",
-      "Family sharing (5 profiles)",
+      "Персональный прогноз AQI на 72 часа",
+      "Умные маршруты с чистым воздухом",
+      "Оценка влияния на здоровье",
+      "Push-уведомления по районам",
+      "Синхронизация с носимыми устройствами",
+      "Семейный доступ (до 5 пользователей)",
     ],
-    cta: "Download app",
+    cta: "Скачать приложение",
     highlight: false,
   },
 ];
@@ -100,7 +100,7 @@ export default function BusinessModel() {
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white/5 border border-white/10 mb-6">
             <span className="w-1.5 h-1.5 rounded-full bg-orange-400" />
             <span className="text-xs font-semibold tracking-widest text-white/50 uppercase">
-              Revenue Model
+              Модель монетизации
             </span>
           </div>
           <h2 className="text-4xl md:text-5xl font-black text-white tracking-tight">
@@ -110,7 +110,7 @@ export default function BusinessModel() {
             </span>
           </h2>
           <p className="mt-4 text-sm text-white/40 max-w-lg mx-auto">
-            Three revenue streams designed to scale from city halls to individual users — sustainable, diverse, and investor-ready.
+            Три источника дохода, позволяющие масштабировать проект от городских служб до обычных пользователей — устойчиво, эффективно и привлекательно для инвесторов.
           </p>
         </div>
 
@@ -138,7 +138,7 @@ export default function BusinessModel() {
                   className="absolute -top-3.5 left-1/2 -translate-x-1/2 text-[10px] font-bold tracking-widest uppercase px-3 py-1 rounded-full"
                   style={{ background: plan.accent, color: "#0f172a" }}
                 >
-                  Most Popular
+                  Популярный тариф
                 </div>
               )}
 
@@ -231,11 +231,11 @@ export default function BusinessModel() {
           }}
         >
           {[
-            { icon: "🔒", label: "ISO 27001 compliant" },
-            { icon: "📊", label: "GDPR ready" },
-            { icon: "🌐", label: "99.9% uptime SLA" },
-            { icon: "🤝", label: "Dedicated onboarding" },
-            { icon: "🚀", label: "Scales to 10M+ users" },
+            { icon: "🔒", label: "Соответствие стандарту ISO 27001" },
+            { icon: "📊", label: "Прозрачная система контроля и отчетности" },
+            { icon: "🌐", label: "99.9% доступность сервиса" },
+            { icon: "🤝", label: "Персональное подключение " },
+            { icon: "🚀", label: "Масштабируемость до 10M+ пользователей" },
           ].map((item) => (
             <div key={item.label} className="flex items-center gap-2">
               <span className="text-base">{item.icon}</span>

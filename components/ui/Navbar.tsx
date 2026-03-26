@@ -8,7 +8,10 @@ import { Map, LayoutDashboard, Bell, Settings, Wind } from 'lucide-react';
 
 const navItems = [
   { href: '/', label: 'Map', icon: Map },
+  { href: '/routing', label: 'Маршруты', icon: Map },
   { href: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
+  { href: '/features', label: 'Features', icon: Wind },
+  { href: '/pricing', label: 'Pricing', icon: Settings },
   { href: '/notifications', label: 'Alerts', icon: Bell },
   { href: '/settings', label: 'Settings', icon: Settings },
 ];

@@ -42,9 +42,9 @@ const AQIForecastChart = () => {
     <div className="mt-4 rounded-xl bg-black/40 border border-white/10 p-3">
       <div className="flex items-center justify-between mb-2">
         <span className="text-[10px] font-semibold tracking-widest text-emerald-400 uppercase">
-          72-hr AI Forecast
+          Прогноз качества воздуха (72 часа)
         </span>
-        <span className="text-[10px] text-white/40">AQI Index</span>
+        <span className="text-[10px] text-white/40">Индекс AQI</span>
       </div>
       <svg viewBox={`0 0 ${w} ${h}`} className="w-full" style={{ height: h }}>
         <defs>
@@ -374,23 +374,23 @@ export default function InnovativeFeatures() {
             </span>
           </h2>
           <p className="mt-4 text-base text-white/50 max-w-xl mx-auto leading-relaxed">
-            Three breakthrough technologies that turn raw sensor data into actionable intelligence — for citizens, businesses, and city governments.
+            Три ключевые технологии, которые превращают данные с датчиков в полезную аналитику — для жителей, бизнеса и городских служб.
           </p>
         </div>
 
         {/* Cards */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <FeatureCard
-            badge="AI-Powered"
+            badge="AI-технология"
             badgeColor="#818cf8"
             icon="🧠"
-            title="AI Air Quality Forecast"
-            subtitle="Predict · Prepare · Protect"
-            description="Our LSTM neural network fuses 3 years of historical AQI data with live weather feeds to generate hour-by-hour forecasts up to 72 hours ahead."
+            title="Прогноз качества воздуха (AI)"
+            subtitle="Прогнозируй · Подготавливайся · Защищайся"
+            description="AI-модель анализирует исторические данные и погодные условия для прогнозирования качества воздуха на 72 часа вперёд."
             bullets={[
-              "24 / 48 / 72-hour predictions",
-              "Weather & traffic data fusion",
-              "Confidence intervals per zone",
+              "Прогноз на 24 / 48 / 72 часа  ",
+              "Учет погодных и транспортных данных",
+              "Анализ по районам города  ",
             ]}
             accent="#818cf8"
             delay={0}
@@ -399,16 +399,16 @@ export default function InnovativeFeatures() {
           </FeatureCard>
 
           <FeatureCard
-            badge="Health Navigation"
+            badge="Экологическая навигация  "
             badgeColor="#34d399"
             icon="🗺️"
-            title="Smart Clean Routes"
-            subtitle="Navigate · Breathe · Live"
-            description="Real-time routing engine calculates the lowest-pollution path between any two points in Almaty, updating every 5 minutes as sensor data changes."
+            title="Умные маршруты  "
+            subtitle="Двигайся · Дыши · Живи "
+            description="Система в реальном времени прокладывает маршруты с минимальным уровнем загрязнения, избегая опасных зон."
             bullets={[
-              "Avoids high-AQI zones dynamically",
-              "Integrates with walking & cycling modes",
-              "Personal health profile settings",
+              "Избегает зон с высоким уровнем AQI  ",
+              "Поддержка пеших и вело маршрутов  ",
+              "Настройки под здоровье пользователя  ",
             ]}
             accent="#34d399"
             delay={100}
@@ -417,16 +417,16 @@ export default function InnovativeFeatures() {
           </FeatureCard>
 
           <FeatureCard
-            badge="B2G Platform"
+            badge="Платформа для города "
             badgeColor="#fb923c"
             icon="🏙️"
-            title="Smart City Integration"
-            subtitle="Govern · Optimize · Sustain"
-            description="A B2G analytics dashboard that gives city officials real-time control over eco-zones, traffic restrictions, and air quality alerts — backed by AI recommendations."
+            title="Интеграция с умным городом  "
+            subtitle="Интеграция с умным городом  "
+            description="Аналитическая система для городских служб, позволяющая управлять трафиком, эко-зонами и качеством воздуха на основе данных и AI."
             bullets={[
-              "AI-driven traffic management triggers",
-              "Eco-zone enforcement automation",
-              "Government-grade audit trail",
+              "AI-управление транспортными потоками  ",
+              "Автоматизация экологических зон  ",
+              "Прозрачная система контроля и отчетности  ",
             ]}
             accent="#fb923c"
             delay={200}

@@ -1,7 +1,6 @@
 'use client';
 
-import InnovativeFeatures from "@/components/landing/InnovativeFeatures";
-import BusinessModel from "@/components/landing/BusinessModel";
+import CleanRouteSection from "@/components/routing/CleanRouteSection";
 import dynamic from 'next/dynamic';
 import { useState, useEffect, useRef } from 'react';
 import { getCityData, getDistricts, getEcoScore } from '@/lib/api/airData';
@@ -145,5 +144,6 @@ export default function HomePage() {
         @keyframes spin { from { transform: rotate(0deg); } to { transform: rotate(360deg); } }
       `}</style>
     </div>
+    
   );
 }
