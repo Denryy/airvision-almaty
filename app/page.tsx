@@ -1,5 +1,7 @@
 'use client';
 
+import InnovativeFeatures from "@/components/landing/InnovativeFeatures";
+import BusinessModel from "@/components/landing/BusinessModel";
 import dynamic from 'next/dynamic';
 import { useState, useEffect, useRef } from 'react';
 import { getCityData, getDistricts, getEcoScore } from '@/lib/api/airData';
